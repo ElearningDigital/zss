@@ -1,0 +1,25 @@
+{
+  "ports.excludeExposeNotification": {
+    "ports": [
+      6005
+    ]
+  },
+  "Adaptation Project.componentname": "cus.o2c.billdoc.display.s1",
+  "Adaptation Project.safeMode": false,
+  "Adaptation Project.appvariant": "zzs",
+  "Adaptation Project.layer": "CUSTOMER_BASE",
+  "Adaptation Project.sourceSystem": "S4HANA_dev",
+  "Adaptation Project.isOVPApp": false,
+  "Adaptation Project.isFioriElement": true,
+  "Adaptation Project.destinations": [
+    {
+      "name": "S4HANA_dev",
+      "url": "https://s48sap.majul.com:8048",
+      "proxyType": "Internet"
+    },
+    {
+      "name": "sapui5",
+      "url": "http://sapui5.hana.ondemand.com/1.60.1"
+    }
+  ]
+}
